@@ -1,0 +1,17 @@
+
+.flex{
+
+    background-color: blue;
+    width: 300px;
+    height: 10px;
+    display: flex;
+    flex-direction:column;
+    gap:3px;
+}
+
+#column{
+
+    background-color:brown;
+    width: 20px;
+    height: 10px;
+}
