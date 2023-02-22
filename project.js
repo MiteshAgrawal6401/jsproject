@@ -7,10 +7,14 @@ for(var i=1; i<=16; i++){
     
     let d = document.getElementById(row_name);
     d.className += " flex"; 
-for(var j=1;j<=15;j++){
+for(var j=1;j<=16;j++){
     const box1 = document.createElement("div");
-    box1.id="column";
+    let blockname = (row_name +" - "+j); 
+    box1.id = blockname; 
     document.getElementById(row_name).appendChild(box1);
+
+    let a = document.getElementById(blockname);
+    a.className += " block";  
 }
 }
 

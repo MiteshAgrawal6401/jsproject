@@ -1,17 +1,19 @@
 
-.flex{
+body { min-height :100vh; }  /* vh stands for viewport height */
 
-    background-color: blue;
-    width: 300px;
-    height: 10px;
-    display: flex;
-    flex-direction:column;
-    gap:3px;
+#container {
+    border: 1px solid black;
+    height: 640px;
+    width: 640px;
 }
 
-#column{
+.flex{
+    display: flex;
+}
 
+.block{
+    border: 1px black solid;
     background-color:brown;
-    width: 20px;
-    height: 10px;
+    min-width: 40px;
+    height: 40px;
 }
